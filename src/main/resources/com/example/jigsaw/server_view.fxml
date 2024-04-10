@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jigsaw.ServerController">
+   <Button fx:id="begin_btn" layoutX="160.0" layoutY="165.0" mnemonicParsing="false" onAction="#onBeginBtnClick" text="Begin" />
+   <Label fx:id="players_amount_lbl" layoutX="60.0" layoutY="15.0" text="Players amount: ">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+
+   <Label fx:id="time_limit_lbl" layoutX="60.0" layoutY="85.0" text="Time limit: ">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+
+   <Label fx:id="server_msg_lbl" layoutX="60.0" layoutY="215.0" text="Server messages: ">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Label>
+
+   <Label fx:id="server_message" layoutX="60.0" layoutY="225.0" text="Waiting for info...">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Label>
+
+   <TextField fx:id="time_limit_text" layoutX="60.0" layoutY="115.0" />
+   <TextField fx:id="players_amount_text" layoutX="60.0" layoutY="45.0" />
+</AnchorPane>

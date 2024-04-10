@@ -1,0 +1,2 @@
+Для работы программы нужно запустить ServerApplication, а затем указанное количество ClientApplication'ов.
+commands/runServerStart.bat позволяет запустить сервер SQL, что необходимо каждый раз в начале.

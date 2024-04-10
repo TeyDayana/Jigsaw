@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jigsaw.Top10Controller">
+    <TableView fx:id="table" layoutX="20.0" layoutY="24.0" prefHeight="350.0" prefWidth="400.0">
+        <columns>
+            <TableColumn fx:id="login_col" prefWidth="100.0" text="Login"/>
+            <TableColumn fx:id="date_col" prefWidth="100.0" text="Date"/>
+            <TableColumn fx:id="score_col" prefWidth="100.0" text="Score"/>
+            <TableColumn fx:id="time_col" prefWidth="100.0" text="Time"/>
+        </columns>
+    </TableView>
+</AnchorPane>

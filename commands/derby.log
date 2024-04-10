@@ -1,0 +1,13 @@
+Wed Jun 01 22:36:47 MSK 2022 : Apache Derby Network Server - 10.15.2.0 - (1873585) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Wed Jun 01 22:37:31 MSK 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0181-20c5-40b7-000045ad06a6 
+on database directory C:\study\java\kdz\jigsaw\commands\TOP_TABLE with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd 
+Loaded from file:/C:/distrib/ApacheDerby/db-derby-10.15.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+user.dir=C:\study\java\kdz\jigsaw\commands
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\study\java\kdz\jigsaw\commands
+Database Class Loader started - derby.database.classpath=''

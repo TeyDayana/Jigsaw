@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.jigsaw.ClientController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Button fx:id="connect_btn" layoutX="60.0" layoutY="225.0" mnemonicParsing="false" text="Connect" onAction="#onConnectBtnClick"/>
+    <Button fx:id="play_again_btn" layoutX="130.0" layoutY="225.0" mnemonicParsing="false" text="Play again" onAction="#onPlayAgainBtnClick"/>
+    <Button fx:id="top10_btn" layoutX="85.0" layoutY="255.0" mnemonicParsing="false" text="TOP-10 games" onAction="#onTop10BtnClick"/>
+
+    <Label fx:id="server_host_lbl" layoutX="60.0" layoutY="15.0" text="Server host: ">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </Label>
+
+    <Label fx:id="server_port_lbl" layoutX="60.0" layoutY="85.0" text="Server port: ">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </Label>
+
+    <Label fx:id="name_lbl" layoutX="60.0" layoutY="155.0" text="Your name: ">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </Label>
+
+    <Label fx:id="server_msg_lbl" layoutX="60.0" layoutY="295.0" text="Server messages: ">
+        <font>
+            <Font size="10.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="server_message" layoutX="60.0" layoutY="305.0" text="Waiting for info...&#10;Try leaving host and port empty for autofill">
+        <font>
+            <Font size="10.0" />
+        </font>
+    </Label>
+
+    <TextField fx:id="server_port_text" layoutX="60.0" layoutY="115.0"/>
+    <TextField fx:id="server_host_text" layoutX="60.0" layoutY="45.0"/>
+    <TextField fx:id="name_text" layoutX="60.0" layoutY="185.0"/>
+</AnchorPane>

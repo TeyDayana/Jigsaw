@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#onFieldClick" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jigsaw.MainActivityController">
+    <Label fx:id="player_lbl" layoutX="675.0" layoutY="50.0" text="The game has started, !">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="players_lbl" layoutX="675.0" layoutY="75.0" text="On server: ">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="timer_lbl" layoutX="675.0" layoutY="100.0" text="Time passed: ">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="time_limit_lbl" layoutX="675.0" layoutY="125.0" text="Time limit: ">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+
+    <Button fx:id="finish_btn" layoutX="50.0" layoutY="525.0" onAction="#onFinishBtnClick" text="Finish the game">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+
+    <Button fx:id="generate_btn" layoutX="675.0" layoutY="525.0" onAction="#onGenerateBtnClick" text="Get figure">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+</AnchorPane>
